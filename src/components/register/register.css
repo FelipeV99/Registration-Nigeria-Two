@@ -1,0 +1,110 @@
+.main-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.bg-logo {
+  height: 100vh;
+}
+
+.h1-welcome {
+  margin-top: 6rem;
+  width: 100%;
+}
+
+.register-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 6rem;
+  width: 100%;
+  align-items: center;
+  overflow: auto;
+}
+
+.form-register {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.div-number {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#input-divide-prefix {
+  width: 4rem;
+}
+
+#input-divide-number {
+  width: auto;
+}
+
+.inner-div-p {
+  display: flex;
+  flex-direction: column;
+  width: 26%;
+}
+
+.inner-div-n {
+  display: flex;
+  flex-direction: column;
+  width: 68%;
+  margin-right: 0;
+}
+
+.btn-register {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.intro-p {
+  margin-top: 0.6rem;
+  text-align: left;
+}
+
+.normal-p {
+  font-size: 12px;
+  color: #787878;
+}
+
+#initial-p {
+  width: 22rem;
+}
+
+.red {
+  border: 1.5px solid #d15656;
+}
+
+.olab-logo {
+  display: none;
+  width: 4rem;
+  margin-bottom: 2rem;
+}
+
+.hidden-input {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .bg-logo {
+    display: none;
+  }
+  .olab-logo {
+    display: flex;
+  }
+  .register-container {
+    margin-top: 1rem;
+  }
+  #initial-p {
+    width: 70vw;
+  }
+  .normal-p {
+    width: 70vw;
+  }
+  .div-number {
+    width: 70vw;
+  }
+}/*# sourceMappingURL=register.css.map */

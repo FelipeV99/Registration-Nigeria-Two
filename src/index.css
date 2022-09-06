@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+h2 {
+  font-family: "montserrat";
+  text-align: center;
+  color: #484848;
+}
+
+input {
+  outline: none;
+  padding: 0.5rem;
+  width: 22rem;
+  height: 1.6rem;
+  border: 0.5px solid #cac2c2;
+  border-radius: 4px;
+  color: #787878;
+}
+
+label {
+  color: #787878;
+}
+
+select {
+  outline: none;
+  padding: 0.5rem;
+  border-width: 0.5px;
+  width: 22rem;
+  height: 2rem;
+  border-radius: 4px;
+  border-color: #cac2c2;
+  color: #787878;
+}
+
+button {
+  border: 0;
+  background-color: #FF6000;
+  color: white;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 10px 25px;
+  border-radius: 4px;
+  white-space: nowrap;
+  font-size: 16px;
+  width: 22rem;
+}
+
+p {
+  color: #787878;
+}
+
+@media (max-width: 768px) {
+  input {
+    width: 70vw;
+  }
+  select {
+    width: 70vw;
+  }
+  .btn {
+    width: 70vw;
+  }
+}/*# sourceMappingURL=index.css.map */

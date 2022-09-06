@@ -1,0 +1,40 @@
+.overlay-style {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: grid;
+  place-items: center;
+}
+
+.modal-style {
+  width: 18rem;
+  max-width: 80vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: 0 auto;
+  overflow-y: auto;
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.overlay-p {
+  text-align: center;
+}
+
+#overlay-btn {
+  width: 10rem;
+  margin-top: 1rem;
+}
+
+.info-icon {
+  color: #5F5F5F;
+}/*# sourceMappingURL=infoModal.css.map */
